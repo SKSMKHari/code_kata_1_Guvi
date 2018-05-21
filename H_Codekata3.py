@@ -15,5 +15,5 @@ for i in v2:
 if flg==0:
     print (-1)
 else:
-    opt.sort(reverse=True)
+    opt.sort()
     print (opt)
