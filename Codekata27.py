@@ -3,8 +3,8 @@ while True:
   try:
      UI = int(input("Enter something: "))       
   except ValueError:
-     print("Not an integer!")
+     print("No!")
      continue
   else:
-     print("Yes an integer!")
+     print("Yes!")
      break 
