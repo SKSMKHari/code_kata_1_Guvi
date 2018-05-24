@@ -11,10 +11,6 @@ def decode(iptn):
             return decode(iptn[1:]) + decode(iptn[2:])
         else:
             return decode(iptn[1:])
-
-
-
-
-
+        
 iptn = input("Enter the number:")
 print(decode(iptn))
